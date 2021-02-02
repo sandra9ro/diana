@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'header';
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.main{
+  background-color: rgb(175, 161, 212);
+}
+.footer{
+  background-color: rgb(153, 153, 223);
+  // display: flex;
+}
+.footer-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
