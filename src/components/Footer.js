@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return(
-    <footer className="footer" id="footer-id">
+    <footer className="footer">
       <ul className="footer-menu">
-        <li className="footer-menu-ele"><a className="footer-menu-link" href="#header-id">Principal</a></li>
-        <li className="footer-menu-ele"><a className="footer-menu-link" href="#header-id">Dónde encontrarnos</a></li>
-        <li className="footer-menu-ele"><a className="footer-menu-link" href="#header-id">Formulario de contacto</a></li>
+        <li><Link to="/">Principal</Link></li>
+        <li><Link to="/form">Formulario</Link></li>
       </ul>
     </footer>
 
